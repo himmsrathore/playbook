@@ -1,0 +1,434 @@
+:focus {
+	outline: none;
+}
+
+* {
+	outline: none;
+	}
+a, img {
+	border: none;
+}
+
+ 
+a {
+	color: #a1a1a1;
+	outline: none;
+	text-decoration: none;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+form { 
+	display: block; 
+	height: auto; 
+	width: 300px;
+	margin: 0 auto; 
+}
+
+#box_title {
+	background: url(../images/login_top.png) no-repeat left top; 
+	color: #FFF;
+	font: bold 14px Verdana, Geneva, sans-serif; 
+	height: 34px; 
+	margin: 0; 
+	padding-top: 8px;
+	padding-left: 15px;
+	text-align: left; 
+	width: 302px;
+}
+
+#form_box {
+	background: url(../images/login_center.png) repeat-y left top;  
+	overflow: hidden;
+	padding: 10px 0 0 20px;
+	width: 296px;
+} 
+
+#box_btm {
+	background: url(../images/login_btm.png) no-repeat left top;
+	display: block;
+	height: 10px;
+	width: 317px;
+}
+
+
+#recent_members {
+	
+}
+#thumbdisp tr {
+	width: 85px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 1px;
+}
+#thumbdisp tr td {  
+	float: left;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	width: auto;
+	display: block;
+}
+
+#thumbdisp tr td img {
+	display: block;
+}
+
+.label1 {
+	display: block;
+	float: left;
+	color: #a1a1a1;
+	font: normal 14px Tahoma, Geneva, sans-serif;
+	height: 20px;
+	margin-bottom: 10px;
+	text-align: left; 
+}
+
+
+.create_acc {
+	background: url(../images/signup.png) no-repeat;
+	border: none; 
+	cursor: pointer;
+	float: right;
+	height: 33px; 
+	text-decoration: none;
+	padding: 0;
+	width: 80px;
+	margin-right: 30px;
+	margin-bottom: 0px
+}
+
+.create_acc:hover {
+	background: url(../images/signup_hover.png) no-repeat;
+}
+.submit {
+	background: url(../images/save.jpg) no-repeat;
+	border: none !important;
+	clear: both;  
+	cursor: pointer;
+	float: right;
+	height: 26px;
+	margin-top: 20px;
+	margin-right: 30px;
+	width: 80px;
+	}
+.submit:hover {
+	background: url(../images/save_hover.jpg) no-repeat;
+	} 
+	
+.save {
+	background: url(../images/save.jpg) no-repeat;
+	border: none !important;
+	clear: both;  
+	cursor: pointer;
+	float: right;
+	height: 18px;
+	margin-top: 20px; 
+	width: 58px;
+	}
+	
+.save:hover {
+	background: url(../images/save_hover.jpg) no-repeat;
+	}
+	
+.question { 
+	clear: right;
+	color: #a1a1a1;
+	float: right;  
+	margin: 3px 0 0 5px;
+}
+
+#userslist .userinfo {
+	background-color: #99ccff;
+	padding-right: 10px;
+	width: 150px;
+}
+
+input:focus {
+	color: #F00;
+}
+
+label {
+	display: block; 
+	color: #000;
+	float: left;
+	font: normal 12px Tahoma, Geneva, sans-serif;
+	height: 17px;
+	margin-bottom: 8px;
+	text-align: left;
+	width: 100px;
+	margin-right: 6px;
+	margin-top: 3px;
+	clear: left;
+}
+
+.label {
+	display: block; 
+	color: #a1a1a1;
+	font: bold 14px Tahoma, Geneva, sans-serif;
+	height: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+	width: 132px;
+	float: left;
+}
+input { 
+	display: block;
+	font: normal 12px Tahoma, Geneva, sans-serif; 
+ 	margin-bottom: 8px;
+}
+
+#form_box .box { 
+	background: url(../images/input.png) no-repeat 0; 
+	border: none;
+	color: #000;
+	float: left;
+	height: 20px;
+	width: 168px;
+	clear: right; 
+	display: block; 
+}
+
+#form_box .login {
+	background: url(../images/login_btn.png) no-repeat;
+	}
+	
+#form_box .login:hover {
+	background: url(../images/login_hover.png) no-repeat;
+}
+
+
+#form_box .signup {
+	background: url(../images/signup.png) no-repeat;
+	}
+	
+#form_box .signup:hover {
+	background: url(../images/signup_hover.png) no-repeat;
+}
+
+
+#innerpage {
+	border: 1px solid #ccc;
+	display: block;
+	height: auto;
+	overflow:hidden;
+	margin: 15px auto; 
+	padding: 10px;
+	width: 970px;
+}
+
+#innerpage #top_head {
+	display: block;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+#innerpage #top_head h4 {
+	color: #cc33ff;
+	float: left;
+	margin: 0 0 10px 0;
+}
+
+#innerpage #top_head h4 strong{
+	color: #000;
+	font-weight: normal;
+}
+
+#innerpage .ip_address {
+	border: 1px solid #000;
+	clear: both;
+	color: #000;
+	margin: 0 auto;
+	padding: 3px;
+	text-align: center;
+	width: auto;
+}
+
+#user_info #left_content{
+	width: 630px; 
+	height: 340px; 
+	display: block; 
+	float: left; 
+	padding: 5px; 
+	border: 1px solid #ccc; 
+	margin-top: 30px;
+}
+
+#innerpage #profile_photo {
+	clear: left;
+	display: block;
+	float: left; 
+	margin: 5px 0 10px 0;
+	width: 120px;
+}
+
+img.profile {
+  vertical-align: top;  
+  
+}
+
+#innerpage #user_info {
+	display: block; 
+	width: 970px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+ 
+#innerpage #user_info #userstitle {
+	display: block;
+	float: left;
+	height: auto;
+	list-style: none;
+	margin: 3px 10px 10px 10px; 
+	padding-left: 10px;
+}
+ 
+#user_info p {
+	display: block;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+#innerpage #user_info li {
+	margin-bottom: 5px;
+	padding: 3px 0 3px 3px;
+}
+
+#user_info form {
+	width: auto;
+}
+
+#user_info form input, select {
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	float: left;
+}
+
+select.gender {
+	width: 75px;
+	margin-right: 25px;
+	}
+
+#innerpage #user_info #userslist{
+	display: block;
+	float: left;
+	list-style: none;
+	height: 200px;
+	margin: 3px 10px 0 10px;
+	width: auto;
+}
+
+#innerpage #user_info #userslist li {
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+#innerpage .user_details {
+	float: right;
+	margin-right: 10px;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#footer {
+  text-align: center;
+  font-size: 80%;
+  margin: 10px 0;
+  padding: 0;
+  display: block;
+}
+
+.error { 
+  color: #FF0000;
+  clear: both;
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#recent_users { 
+	display: block; 
+	height: 200px;  
+	width: 900px;
+	margin: 0 auto;
+	overflow: scroll;
+	overflow-y: hidden;
+}
+
+#recent_users h4 {
+	margin: 10px;
+}
+
+#recent_users #users_list {
+	height: 200px;
+	display: block;
+}
+
+#recent_users tr { 
+	width: 140px;
+	display: block;
+	float: left; 
+	margin-right: 10px;
+	margin-bottom: 10px; 
+}
+
+#recent_users tr td {
+	float: left;
+	display: block;
+}
+
+div.pages div, div.pages a {
+	margin-right: 1px;
+	padding: 1px 5px 2px 5px;
+	border: 1px solid #999;
+	text-decoration: none;
+	font-size: 14px;
+    font-weight:bold;
+	color: #999;
+}
+div.pages div, div.pages a:hover {
+	border: 1px solid #999;
+    background-color:#CCC;
+    color:#fff;
+}
+div.pages .current {
+	border: 1px solid #999;
+    background-color:#CCC;
+}
